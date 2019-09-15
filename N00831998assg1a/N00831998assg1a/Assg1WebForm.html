@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html>
+<!--SAM BEBENEK N00831998-->
+<head>
+    <meta charset="utf-8" />
+    <title>HTML Web Form</title>
+</head>
+<!--Needs 1 input field, two checkbox fields, two radio button fields, and a drop down list-->
+<body>
+    <h1>HTTP 5101 Assignment 1a HTML Web Form</h1>
+    <h3>Sam Bebenek N00831998</h3>
+    <form method="post" action="https://postman-echo.com/post">
+        <h2>Student Resort Inquiry Form</h2>
+        <div>
+            <label for="student_number">Student Number:</label>
+            <input type="text" id="student_number" name="student_number" placeholder="e.g. N12345678" />
+        </div>
+        <div>
+            <label for="service_event">Select Service/Event:</label>
+            <select name="service_event" id="service_event">
+                <option value="" selected disabled hidden>Choose here</option>
+                <option value="hotel">Hotel</option>
+                <option value="bus_tour">Bus Tour</option>
+                <option value="skiing">Skiing</option>
+                <option value="skydiving">Skydiving</option>
+                <option value="pet_grooming">Pet Grooming</option>
+                <option value="sports_car_rental">Sports Car Rental</option>
+                <option value="scuba_diving">Scuba Diving</option>
+                <option value="go_cart">Go Kart</option>
+                <option value="rock_climbing">Rock Climbing</option>
+                <option value="rock_concert">Rock Concert</option>
+            </select>
+        </div>
+        
+        <div>
+            <label>Select Inquiry Type:</label>
+            <div>
+                <input type="radio" id="booking" name="inquiry_type" value="booking"
+                       checked/>
+                <label for="booking">Booking</label>
+            </div>
+
+            <div>
+                <input type="radio" id="review" name="inquiry_type" value="review"/>
+                <label for="review">Review</label>
+            </div>
+
+            <div>
+                <input type="radio" id="incident_report" name="inquiry_type" value="incident_report"/>
+                <label for="incident_report">Incident Report</label>
+            </div>
+            <div>
+                <label for="form_message">Enter Inquiry Message:</label>
+            </div>
+            <div>
+                <textarea id="form_message" name="inquiry_message"></textarea>
+            </div>
+            <div>
+                <label>Additional: Which resort coding seminars do you plan on attending?</label>
+                <div>
+                    <input type="checkbox" id="java" value="java" name="attending_seminar" />
+                    <label for="java">Java</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="cs" value="cs" name="attending_seminar" />
+                    <label for="cs">C#</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="html" value="html" name="attending_seminar" />
+                    <label for="html">HTML</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="cpp" value="cpp" name="attending_seminar" />
+                    <label for="cpp">C++</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="python" value="python" name="attending_seminar" />
+                    <label for="python">Python</label>
+                </div>
+            </div>
+            <div>
+                <input type="submit" value="Submit" />
+            </div>
+        </div>
+    </form>
+</body>
+</html>
