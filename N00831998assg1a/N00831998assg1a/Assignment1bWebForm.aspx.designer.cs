@@ -22,48 +22,75 @@ namespace N00831998assg1a {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// student_number control.
+        /// hotel_booking_fname control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox student_number;
+        protected global::System.Web.UI.WebControls.TextBox hotel_booking_fname;
         
         /// <summary>
-        /// service_event control.
+        /// hotel_booking_lname control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList service_event;
+        protected global::System.Web.UI.WebControls.TextBox hotel_booking_lname;
         
         /// <summary>
-        /// inquiry_type control.
+        /// hotel_booking_email control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList inquiry_type;
+        protected global::System.Web.UI.WebControls.TextBox hotel_booking_email;
         
         /// <summary>
-        /// form_message control.
+        /// hotel_booking_phone control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox form_message;
+        protected global::System.Web.UI.WebControls.TextBox hotel_booking_phone;
         
         /// <summary>
-        /// attending_seminar control.
+        /// hotel_booking_date control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList attending_seminar;
+        protected global::System.Web.UI.WebControls.TextBox hotel_booking_date;
+        
+        /// <summary>
+        /// hotel_room_type control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList hotel_room_type;
+        
+        /// <summary>
+        /// hotel_days_booked control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox hotel_days_booked;
+        
+        /// <summary>
+        /// submit_confirm control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl submit_confirm;
     }
 }

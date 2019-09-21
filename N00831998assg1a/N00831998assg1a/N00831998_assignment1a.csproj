@@ -106,7 +106,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
-    <Content Include="Assg1WebForm.html" />
+    <Content Include="Assg1aWebForm.html" />
     <Content Include="Assignment1bWebForm.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -126,7 +126,7 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
-    <Content Include="Assg1WebForm.aspx" />
+    <Content Include="Assg1aWebForm.aspx" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -218,12 +218,12 @@
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Assg1WebForm.aspx.cs">
-      <DependentUpon>Assg1WebForm.aspx</DependentUpon>
+    <Compile Include="Assg1aWebForm.aspx.cs">
+      <DependentUpon>Assg1aWebForm.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Assg1WebForm.aspx.designer.cs">
-      <DependentUpon>Assg1WebForm.aspx</DependentUpon>
+    <Compile Include="Assg1aWebForm.aspx.designer.cs">
+      <DependentUpon>Assg1aWebForm.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
