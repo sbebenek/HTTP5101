@@ -1,4 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Assignment1bWebForm.aspx.cs" Inherits="N00831998assg1a.Assignment1bWebForm" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Assignment1bWebForm.aspx.cs" Inherits="N00831998assg1a.Assignment1bWebForm" %>
 
 <!DOCTYPE html>
 

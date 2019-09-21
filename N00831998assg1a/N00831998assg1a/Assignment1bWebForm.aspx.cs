@@ -11,7 +11,7 @@ namespace N00831998assg1a
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-           //if page is loaded after submit button is clicked
+            //if page is loaded after submit button is clicked
             if (Page.IsPostBack)
             {
                 //re-validate the code
@@ -28,7 +28,7 @@ namespace N00831998assg1a
                     string guestRoomType = hotel_room_type.SelectedValue.ToString();
                     int guestDaysBooked = Convert.ToInt32(hotel_days_booked.Text);
                     string roomTypeString = "";
-                    int totalCost; 
+                    int totalCost;
 
                     //Single room type selected -- $100
                     if (guestRoomType == "room_type_single")
@@ -47,13 +47,13 @@ namespace N00831998assg1a
                     {
                         roomTypeString = "Triple";
                         totalCost = guestDaysBooked * 200;
-                    } 
+                    }
                     //Quad room type selected -- $250
                     else if (guestRoomType == "room_type_quad")
                     {
                         roomTypeString = "Quad";
                         totalCost = guestDaysBooked * 250;
-                    } 
+                    }
                     //Suite room type selected -- $300
                     else if (guestRoomType == "room_type_suite")
                     {
