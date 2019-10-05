@@ -10,7 +10,7 @@
 namespace N00831998_Bonus_Assignment {
     
     
-    public partial class _1_coordinate {
+    public partial class WebForm1 {
         
         /// <summary>
         /// form1 control.
@@ -22,22 +22,13 @@ namespace N00831998_Bonus_Assignment {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// x_coordinate control.
+        /// ticket_number control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox x_coordinate;
-        
-        /// <summary>
-        /// y_coordinate control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox y_coordinate;
+        protected global::System.Web.UI.WebControls.TextBox ticket_number;
         
         /// <summary>
         /// validation_summary control.

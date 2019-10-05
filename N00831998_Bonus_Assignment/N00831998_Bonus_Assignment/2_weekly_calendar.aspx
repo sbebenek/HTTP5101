@@ -14,7 +14,7 @@
             <div>
                 <label for="schedule_checkbox">Please select which days you work:</label>
             </div>
-             <asp:CheckBoxList runat="server" name="schedule_checkbox" ID="schedule_checkbox">
+            <asp:CheckBoxList runat="server" name="schedule_checkbox" ID="schedule_checkbox">
                 <asp:ListItem Value="monday">Monday</asp:ListItem>
                 <asp:ListItem Value="tuesday">Tuesday</asp:ListItem>
                 <asp:ListItem Value="wednesday">Wednesday</asp:ListItem>

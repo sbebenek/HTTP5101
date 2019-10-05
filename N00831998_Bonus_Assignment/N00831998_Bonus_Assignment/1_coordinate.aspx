@@ -18,20 +18,21 @@
             <div>
                 <label for="x_coordinate">X:</label>
                 <asp:TextBox runat="server" ID="x_coordinate" name="x_coordinate"></asp:TextBox>
-                <asp:RequiredFieldValidator runat="server" EnableClientScript="true" ErrorMessage="Required Field" ControlToValidate="x_coordinate"></asp:RequiredFieldValidator>
-                <asp:CompareValidator runat="server" ValueToCompare="0" ControlToValidate="x_coordinate" ErrorMessage="Please enter a non-zero integer" Operator="NotEqual" Type="Integer"></asp:CompareValidator>
+                <asp:RequiredFieldValidator runat="server" EnableClientScript="true" ErrorMessage="Required Field" ControlToValidate="x_coordinate" Text="*" ForeColor="Red"></asp:RequiredFieldValidator>
+                <asp:CompareValidator runat="server" ValueToCompare="0" ControlToValidate="x_coordinate" ErrorMessage="Please enter a non-zero integer" Operator="NotEqual" Type="Integer" Text="*" ForeColor="Red"></asp:CompareValidator>
             </div>
             <div>
                 <label for="y_coordinate">Y:</label>
                 <asp:TextBox runat="server" ID="y_coordinate" name="y_coordinate"></asp:TextBox>
-                <asp:RequiredFieldValidator runat="server" EnableClientScript="true" ErrorMessage="Required Field" ControlToValidate="y_coordinate"></asp:RequiredFieldValidator>
-                <asp:CompareValidator runat="server" ValueToCompare="0" ControlToValidate="y_coordinate" ErrorMessage="Please enter a non-zero integer" Operator="NotEqual" Type="Integer"></asp:CompareValidator>
+                <asp:RequiredFieldValidator runat="server" EnableClientScript="true" ErrorMessage="Required Field" ControlToValidate="y_coordinate" Text="*" ForeColor="Red"></asp:RequiredFieldValidator>
+                <asp:CompareValidator runat="server" ValueToCompare="0" ControlToValidate="y_coordinate" ErrorMessage="Please enter a non-zero integer" Text="*" ForeColor="Red" Operator="NotEqual" Type="Integer"></asp:CompareValidator>
             </div>
 
             <br />
             <div>
                 <asp:Button Text="Submit" runat="server" />
             </div>
+            <asp:ValidationSummary runat="server" ID="validation_summary" ForeColor="Red" />
             <br />
             <div id="submit_return" runat="server">
             </div>
